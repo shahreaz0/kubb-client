@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@kubb/plugin-client':
-        specifier: ^3.8.0
-        version: 3.8.0(@kubb/react@3.8.0)(axios@1.8.4)
       '@tanstack/react-query':
         specifier: ^5.73.3
         version: 5.73.3(react@19.1.0)
@@ -342,16 +339,6 @@ packages:
   '@kubb/parser-ts@3.8.0':
     resolution: {integrity: sha512-Gm3kmP2llZoItLUFSc2rruMxFZh+m/PGlyWcdDDZV7wuNBGBgPZtpQuHD0OFZ0dBKmgmifjBsibGDWGRv/uboA==}
     engines: {node: '>=20'}
-
-  '@kubb/plugin-client@3.8.0':
-    resolution: {integrity: sha512-d3EwNUwKdPiVvA/UnloNtGPm3pg4P7uXWcAn/pHP4HCa9j9sPdnUkPbBoshVCZG7gKCHH5kOgPOcAImEV79wWg==}
-    engines: {node: '>=20'}
-    peerDependencies:
-      '@kubb/react': ^3.0.0
-      axios: ^1.7.2
-    peerDependenciesMeta:
-      axios:
-        optional: true
 
   '@kubb/plugin-oas@3.8.0':
     resolution: {integrity: sha512-7Z0TJqjF71mRaHMv0zzqzafsGXfFKDS9DdEZ/UWGBmGnlaCmIGETufcEHhckLUrrpHQ5Sv7Iu9bwHExpkjLr8w==}
@@ -2925,21 +2912,6 @@ snapshots:
       prettier: 3.5.3
       remeda: 2.21.2
       typescript: 5.8.3
-
-  '@kubb/plugin-client@3.8.0(@kubb/react@3.8.0)(axios@1.8.4)':
-    dependencies:
-      '@kubb/core': 3.8.0
-      '@kubb/fs': 3.8.0
-      '@kubb/oas': 3.8.0
-      '@kubb/plugin-oas': 3.8.0(@kubb/react@3.8.0)
-      '@kubb/plugin-ts': 3.8.0(@kubb/react@3.8.0)
-      '@kubb/plugin-zod': 3.8.0(@kubb/react@3.8.0)
-      '@kubb/react': 3.8.0
-    optionalDependencies:
-      axios: 1.8.4
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
 
   '@kubb/plugin-oas@3.8.0(@kubb/react@3.8.0)':
     dependencies:
