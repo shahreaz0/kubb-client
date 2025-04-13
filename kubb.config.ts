@@ -48,6 +48,7 @@ export default defineConfig({
         type: "tag",
         name: ({ group }) => `${group.toLocaleLowerCase()}`,
       },
+      suspense: false,
       // client: {
       //   dataReturnType: "full",
       // },
