@@ -1,6 +1,6 @@
-import client from '@kubb/plugin-client/clients/axios'
+import client from '@/lib/axios'
 import type { DeleteTasksIdMutationResponse, DeleteTasksIdPathParams, DeleteTasksId404, DeleteTasksId422 } from '../../types/tasks/delete-tasks-id-type.ts'
-import type { RequestConfig, ResponseErrorConfig } from '@kubb/plugin-client/clients/axios'
+import type { RequestConfig, ResponseErrorConfig } from '@/lib/axios'
 import type { UseMutationOptions, QueryClient } from '@tanstack/react-query'
 import { useMutation } from '@tanstack/react-query'
 

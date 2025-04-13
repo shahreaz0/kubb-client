@@ -49,9 +49,10 @@ export default defineConfig({
         name: ({ group }) => `${group.toLocaleLowerCase()}`,
       },
       suspense: false,
-      // client: {
-      //   dataReturnType: "full",
-      // },
+      client: {
+        dataReturnType: "data",
+        importPath: "@/lib/axios",
+      },
       mutation: {
         methods: ["post", "put", "delete"],
       },
