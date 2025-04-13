@@ -1,0 +1,1 @@
+{"type":"object","properties":{"file":{},"path":{"type":"string","default":""}},"required":["file"],"x-readme-ref-name":"File"}

@@ -1,0 +1,1 @@
+{"type":"object","properties":{"id":{"type":"number"},"name":{"type":"string"},"done":{"type":"boolean"},"createdAt":{"type":"string","nullable":true},"updatedAt":{"type":"string","nullable":true}},"required":["id","name","done","createdAt","updatedAt"],"x-readme-ref-name":"Task"}

@@ -6,22 +6,30 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "client:generate": "kubb generate"
   },
   "dependencies": {
+    "@kubb/plugin-client": "^3.8.0",
+    "@tanstack/react-query": "^5.73.3",
+    "next": "15.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.0"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@kubb/cli": "^3.8.0",
+    "@kubb/core": "^3.8.0",
+    "@kubb/plugin-oas": "^3.8.0",
+    "@kubb/plugin-react-query": "^3.8.0",
+    "@kubb/plugin-ts": "^3.8.0",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.0",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
